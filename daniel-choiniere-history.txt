@@ -1,0 +1,37 @@
+    1  exit
+    2  .bash_history
+    3  history > daniel-choiniere-history2.txt
+    4  mkdir intro-to-html
+    5  cd intro-to-html/
+    6  touch index.html
+    7  ls
+    8  touch README.MD
+    9  c9 README.MD
+   10  git init
+   11  git remote add origin git@github.com:terpenetaster/intro-to-html.git
+   12  git add .
+   13  git commit
+   14  git push -u
+   15  c9 index.html
+   16  git add .
+   17  git commit -m "Added HTML scaffold"
+   18  git push -u
+   19  mkdir 08292018-daniel
+   20  mkdir 08292018-choiniere
+   21  touch 08292018-daniel/myfile.txt
+   22  Presto Filo Contents! >> myfile.txt
+   23  echo "Presto Filo Contents!  >> myfile.txt
+myfile.txt
+"Presto Filo Contents!  >> myfile.txt
+   24  cat myfile.txt
+   25  cat 08292018-daniel/myfile.txt
+   26  echo "Presto Filo Contents!" >> 08292018-daniel/myfile.txt
+   27  cat myfile.txt
+   28  cat 08292018-daniel/myfile.txt
+   29  cp 08292018-daniel/myfile.txt  08292018-daniel/my2ndfile.txt
+   30  cp 08292018-daniel/myfile.txt  08292018-choiniere/my2ndfile.txt
+   31  rm 08292018-daniel/my2ndfile.txt 
+   32  ls -l 08292018-choiniere/my2ndfile.txt 
+   33  chmod 600 08292018-choiniere/my2ndfile.txt 
+   34  vi 08292018-choiniere/my2ndfile.txt 
+   35  history > daniel-choiniere-history.txt
